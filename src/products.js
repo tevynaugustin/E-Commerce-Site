@@ -48,7 +48,7 @@ export const PRODUCTS = [
     {
         id: 7,
         productName: "BTS - BE (Deluxe Edition) | CD Album",
-        price: "54.99",
+        price: "£54.99",
         productImage: product7
     },
     {
