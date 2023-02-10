@@ -1,0 +1,43 @@
+.cart img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 15%;
+}
+
+.cart .itemContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.cart .price {
+    font-size: 30px;
+    font-family: "Ruso One", sans-serif;
+    position: relative;
+    margin: auto;
+}
+
+.cartItem {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    max-height: 150px;
+}
+
+.cart .description {
+    height: 10px;
+    margin-left: 250px;
+    float: right;
+    max-width: 150px;
+}
+
+.cart .productName {
+    width: 400px;
+    text-align: left;
+    font-family: "Itim", sans-serif;
+    position: relative;
+    top: 300%;
+    right: 175px;
+    font-size: 20px;
+    max-height: 50px;
+}
