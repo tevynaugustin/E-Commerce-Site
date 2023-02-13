@@ -13,6 +13,7 @@
     font-size: 30px;
     font-family: "Ruso One", sans-serif;
     position: relative;
+    left: 150px;
     margin: auto;
 }
 
@@ -24,15 +25,14 @@
     max-height: 150px;
 }
 
-.cart .description {
-    height: 10px;
+.cart .description {    height: 10px;
     margin-left: 250px;
     float: right;
     max-width: 150px;
 }
 
 .cart .productName {
-    width: 400px;
+    min-width: 600px;
     text-align: left;
     font-family: "Itim", sans-serif;
     position: relative;
