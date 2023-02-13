@@ -7,8 +7,6 @@ export const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <h1><Link to="/">Bangtan Store</Link>
-      </h1>
         <div className="links">
             <Link to="/">Shop</Link>
             <Link className='cart' to="/cart"><FontAwesomeIcon icon="fa-solid fa-cart-shopping" /></Link>
