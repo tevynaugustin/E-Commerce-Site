@@ -11,7 +11,7 @@ export const Navbar = () => {
       </h1>
         <div className="links">
             <Link to="/">Shop</Link>
-            <Link to="/cart"><FontAwesomeIcon icon="fa-solid fa-cart-shopping" /></Link>
+            <Link className='cart' to="/cart"><FontAwesomeIcon icon="fa-solid fa-cart-shopping" /></Link>
         </div>
     </div>
   )
