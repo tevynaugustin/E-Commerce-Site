@@ -5,8 +5,19 @@
 }
 
 .cart .itemContainer {
-    width: 50%;
+    width: 35%;
     margin: auto;
+    float: left;
+    margin-left: 5%;
+}
+
+.cart .border {
+    display: block;
+    margin: auto;
+    border-right: 2px solid black;
+    height: 100%;
+    position: relative;
+    right: 50%;
 }
 
 .cart .price {
@@ -64,12 +75,57 @@
 }
 
 .cart .productName {
-    min-width: 600px;
+    min-width: 230px;
     text-align: left;
     font-family: "Itim", sans-serif;
     position: relative;
-    top: 300%;
+    top: 150%;
     right: 175px;
-    font-size: 20px;
+    font-size: 15px;
     max-height: 50px;
+}
+
+.cart .checkout {
+    margin-bottom: 25px;
+}
+
+.cart .checkout p {
+    font-size: 30px;
+    font-family: "Imru", sans-serif;
+}
+
+.cart .countHandler {
+    position: relative;
+    margin: auto;
+}
+
+.cart .countHandler button {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: none;
+    border: 2px solid black;
+    transition: .3s ease-in-out;
+}
+.cart .countHandler button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.cart .countHandler input {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 5px;
+    width: 40%;
+    height: 16px;
+}
+.cart .countHander input:focus {
+    border: 2px solid black;
+}
+
+.cart .emptyBasket {
+    position: relative;
+    margin: auto;
+    top: 400px;
+    font-size: 75px;
 }

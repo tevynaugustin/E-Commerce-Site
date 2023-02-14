@@ -12,16 +12,14 @@ function CartItem(props) {
           <div className="productName">
             <p><b>{productName}</b></p>
             <p>{artist}</p>
+            <p>£{price}</p>
           </div>
         </div>
-            <div className="price">
-              <p>£{price}</p>
               <div className="countHandler">
                 <button onClick={() => removeFromCart(id)}> - </button>
                 <input type="text" value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)}/>
                 <button onClick={() => addToCart(id)}> + </button>
               </div>
-          </div>
     </div>
   )
 }

@@ -16,6 +16,7 @@ export const ShopContextProvider = (props) => {
 
     const getTotalCartAmount = () => {
         let totalAmount = 0;
+        totalAmount.toFixed(1)
         for (const item in cartItems) {
             if (cartItems[item] > 0) {
                 let itemInfo = PRODUCTS.find((product) => product.id === Number(item))
