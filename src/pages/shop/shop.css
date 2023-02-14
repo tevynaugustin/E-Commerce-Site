@@ -8,15 +8,17 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     place-items: center;
   }
   
   .product {
     border-radius: 15px;
+    padding: 15px;
+    border: 2px solid black;
     width: auto;
     height: auto;
-    margin: 100px;
+    margin: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +26,13 @@
   }
   
   .product img {
-    width: 300px;
+    width: 250px;
   }
   
   .product .description {
     font-family: 'Itim', sans-serif;
     text-align: center;
+    width: 200px;
   }
 
   .product .price {
@@ -44,12 +47,11 @@
   .addToCartBttn {
     background-color: transparent;
     border: 2px solid rgb(19, 19, 19);
-    min-width: 100px;
+    min-width: 125px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: 15px;
     transition: .3s ease-in-out;
   }
   

@@ -3,11 +3,12 @@ import {PRODUCTS} from '../../products';
 import {ShopContext} from '../../context/shop-context'
 import './cart.css'
 import CartItem from './cart-item'
-import {Link} from 'react-router-dom'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {useNavigate} from 'react-router-dom'
 
 const Cart = () => {
-  const {cartItems} = useContext(ShopContext);
+  const {cartItems, getTotalCartAmount} = useContext(ShopContext);
+  const totalAmount = getTotalCartAmount();
+  const navigate = useNavigate();
   return (
     <div className='cart'>
       <div>
@@ -21,8 +22,12 @@ const Cart = () => {
             }
           })}
         </div> 
+        <div className="checkout">
+          <p>Subtotal: £{totalAmount}</p>
+          <button onClick={() => navigate('/')}>Continue Shopping</button>
+          <button>Checkout</button>
+        </div>
       </div>
-          <Link className="toCheckout" to="/checkout">To Checkout<FontAwesomeIcon className='checkoutIcon' icon="fa-credit-card" /></Link>
     </div>
   )
 }
