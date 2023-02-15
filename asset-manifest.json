@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-Site/static/css/main.d20e1b8a.css",
+    "main.js": "/E-Commerce-Site/static/js/main.3d963a5a.js",
+    "static/media/darkandwild-bts.png": "/E-Commerce-Site/static/media/darkandwild-bts.177ced565366153a4600.png",
+    "static/media/AyYo-NCT.png": "/E-Commerce-Site/static/media/AyYo-NCT.f6d02781390d423a593a.png",
+    "static/media/mots-persona.png": "/E-Commerce-Site/static/media/mots-persona.7919ab6c8c562cee9b48.png",
+    "static/media/temptation-TXT-Compact.png": "/E-Commerce-Site/static/media/temptation-TXT-Compact.50eb40447d1e0726367f.png",
+    "static/media/waw-mamamoo.png": "/E-Commerce-Site/static/media/waw-mamamoo.6249ef5201fba152e041.png",
+    "static/media/wings.png": "/E-Commerce-Site/static/media/wings.bc7fd2158bd545c03030.png",
+    "static/media/bluebook-NewJeans.png": "/E-Commerce-Site/static/media/bluebook-NewJeans.d0acf86d11ed48ccb64a.png",
+    "static/media/the-astronaut.png": "/E-Commerce-Site/static/media/the-astronaut.6574ce5c601f1717e203.png",
+    "static/media/skool.png": "/E-Commerce-Site/static/media/skool.0928e6b5362490a50089.png",
+    "static/media/treasure-ateez.png": "/E-Commerce-Site/static/media/treasure-ateez.47b1bbc270edec176281.png",
+    "static/media/killingme-CHUNGHA.png": "/E-Commerce-Site/static/media/killingme-CHUNGHA.04ccad943fe4cebb7da7.png",
+    "static/media/bss.png": "/E-Commerce-Site/static/media/bss.537eeee437ad47b0183f.png",
+    "index.html": "/E-Commerce-Site/index.html",
+    "main.d20e1b8a.css.map": "/E-Commerce-Site/static/css/main.d20e1b8a.css.map",
+    "main.3d963a5a.js.map": "/E-Commerce-Site/static/js/main.3d963a5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d20e1b8a.css",
+    "static/js/main.3d963a5a.js"
+  ]
+}
