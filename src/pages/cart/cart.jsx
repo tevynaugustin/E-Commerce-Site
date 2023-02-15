@@ -2,7 +2,6 @@ import React, {useContext} from 'react'
 import {PRODUCTS} from '../../products';
 import {ShopContext} from '../../context/shop-context'
 import './cart.css'
-import $ from 'jquery'
 import CartItem from './cart-item'
 import {useNavigate} from 'react-router-dom'
 
