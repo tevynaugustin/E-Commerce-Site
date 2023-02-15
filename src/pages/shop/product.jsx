@@ -15,7 +15,7 @@ const Product = (props) => {
             <p>{type}</p>
             <p className='price'>£{price}</p>
         </div>
-        <button className="addToCartBttn" onClick={() => addToCart(id)}>Add to Cart {cartItemAmount > 0 && <> ({cartItemAmount})</>}</button>
+        <button className="addToCartBttn" onClick={() => addToCart(id)}>Add to Cart! {cartItemAmount > 0 && <> ({cartItemAmount})</>}</button>
     </div>
   )
 }
