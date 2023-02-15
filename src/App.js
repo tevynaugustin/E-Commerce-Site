@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-      <Shop/>
       <Router>
         <Navbar/>
         <Routes>
@@ -19,6 +18,7 @@ function App() {
         </Routes>
       </Router>
       </ShopContextProvider>
+      <Shop/>
     </div>
   );
 }
