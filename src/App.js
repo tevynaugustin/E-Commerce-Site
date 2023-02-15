@@ -18,7 +18,6 @@ function App() {
         </Routes>
       </Router>
       </ShopContextProvider>
-      <Shop/>
     </div>
   );
 }
