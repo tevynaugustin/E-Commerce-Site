@@ -13,8 +13,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route exact path="/" element={<Shop/>}/>
-          <Route path="/" element={<Shop/>}/>
+          <Route path="/E-Commerce-Site" element={<Shop/>}/>
           <Route path="/cart" element={<Cart/>}/>
         </Routes>
       </Router>
