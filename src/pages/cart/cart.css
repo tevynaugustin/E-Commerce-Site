@@ -65,7 +65,7 @@
     border: 3px solid black;
     border-radius: 25px;
     margin-bottom: 25px;
-    max-height: 150px;
+    height: 150px;
 }
 
 .cart .description {    height: 10px;
@@ -75,7 +75,7 @@
 }
 
 .cart .productName {
-    min-width: 230px;
+    width: 230px;
     text-align: left;
     font-family: "Itim", sans-serif;
     position: relative;
@@ -104,7 +104,7 @@
 
 .cart .checkout button {
     display: block;
-    min-width: 200px;
+    width: 200px;
     margin: auto;
     padding: 10px;
     border: none;
@@ -169,7 +169,7 @@
 
     .cart .checkout {
         width: 20%;
-        height: 20%;
+        height: auto;
         margin: 0;
     }
     .cart .checkout p {
@@ -201,4 +201,44 @@
         left: -25px;
     }
         
+  }
+
+  /* Mobile Responsive Code */
+@media screen and (max-width: 576px) {
+    .cart .checkout {
+        width: 20%;
+        height: 25%;
+    }
+
+    .cart .checkout p {
+        font-size: 30px;
+        bottom: 30px;
+    }
+
+    .cart .checkout button {
+        position: relative;
+        right: 25px;
+        margin-top: 10px;
+        font-size: 13px;
+        width: 140px;
+        margin: auto;
+    }
+
+    .cartItem {
+        width: 98%;
+        height: 350px;
+    }
+
+    .cart .countHandler {
+        right: 31.85rem;
+        top: 140px;
+    }
+
+    .cart .productName {
+        position: relative;
+        right: 380px;
+        width: 150px;
+        margin: auto;
+        top: 145px;
+    }
   }
