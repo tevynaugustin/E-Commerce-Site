@@ -156,3 +156,49 @@
     top: 400px;
     font-size: 75px;
 }
+
+/* Laptop Responsive Code */
+@media screen and (max-width: 1200px) {
+    .cart .productName {
+        font-size: 16px;
+    }
+
+    .cartItem {
+        width: 140%;
+    }
+
+    .cart .checkout {
+        width: 20%;
+        height: 20%;
+        margin: 0;
+    }
+    .cart .checkout p {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .cart .checkout button {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .cart .countHandler {
+        position: relative;
+        right: 190px;
+        top: 40px;
+    }
+
+    .cart .countHandler input {
+        width: 55px;
+    }
+
+    .cart .countHandler button {
+        position: absolute;
+        vertical-align: middle;
+    }
+
+    .cart .countHandler button.minus {
+        left: -25px;
+    }
+        
+  }

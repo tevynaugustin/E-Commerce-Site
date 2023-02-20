@@ -8,7 +8,8 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="links">
-            <Link to="/">Shop</Link>
+    //Navbar Links
+            <Link to="/E-Commerce-Site">Shop</Link>
             <Link className='cart' to="/cart"><FontAwesomeIcon icon="fa-solid fa-cart-shopping" /></Link>
         </div>
     </div>

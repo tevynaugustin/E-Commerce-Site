@@ -16,7 +16,7 @@ function CartItem(props) {
           </div>
         </div>
               <div className="countHandler">
-                <button onClick={() => removeFromCart(id)}> - </button>
+                <button className='minus' onClick={() => removeFromCart(id)}> - </button>
                 <input type="text" value={cartItems[id]} onChange={(e) => updateCartItemCount(Number(e.target.value), id)}/>
                 <button onClick={() => addToCart(id)}> + </button>
               </div>
