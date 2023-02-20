@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/E-Commerce-Site/static/css/main.278ee5fa.css",
+    "main.css": "/E-Commerce-Site/static/css/main.b80a8254.css",
     "main.js": "/E-Commerce-Site/static/js/main.21ca02c1.js",
     "static/media/darkandwild-bts.png": "/E-Commerce-Site/static/media/darkandwild-bts.177ced565366153a4600.png",
     "static/media/AyYo-NCT.png": "/E-Commerce-Site/static/media/AyYo-NCT.f6d02781390d423a593a.png",
@@ -15,11 +15,11 @@
     "static/media/killingme-CHUNGHA.png": "/E-Commerce-Site/static/media/killingme-CHUNGHA.04ccad943fe4cebb7da7.png",
     "static/media/bss.png": "/E-Commerce-Site/static/media/bss.537eeee437ad47b0183f.png",
     "index.html": "/E-Commerce-Site/index.html",
-    "main.278ee5fa.css.map": "/E-Commerce-Site/static/css/main.278ee5fa.css.map",
+    "main.b80a8254.css.map": "/E-Commerce-Site/static/css/main.b80a8254.css.map",
     "main.21ca02c1.js.map": "/E-Commerce-Site/static/js/main.21ca02c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.278ee5fa.css",
+    "static/css/main.b80a8254.css",
     "static/js/main.21ca02c1.js"
   ]
 }
